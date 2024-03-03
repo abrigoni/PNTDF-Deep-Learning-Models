@@ -38,6 +38,24 @@ Los modelos clasifican 24 especies de flores.
 * punque
 * violeta amarilla
 
+#### Pasos para correr el proyecto
+
+1. Crear un entorno de desarrollo virtual (venv, pipenv, conda). Los siguientes pasos seran ejemplificados con virtualenv y MacOS
+```bash
+python3 -m venv {nombre_entorno}
+```
+2. Activar el entorno de desarrollo virtual
+```bash
+source venv/bin/activate
+```
+3. Instalar los requerimientos del proyecto
+```
+pip install -r requirements.txt
+```
+4. Con estos pasos el proyecto ya puede correr localmente en Jupyter Notebook (interfaz web o VSCode).
+
+Nota: Esto toma en cuenta como precondicion haber descargado el [dataset](https://huggingface.co/datasets/brianrigoni/pntdf-flores).
+
 
 ### [EN]  Deep Learning Models for offline mobile devices for the [Tierra del Fuego National Park (PNTDF), Argentina](https://www.argentina.gob.ar/interior/ambiente/parquesnacionales/tierradelfuego)
 
